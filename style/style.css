@@ -1,0 +1,124 @@
+html {
+    background-image: url(../img/background.svg);
+    background-size: cover;
+}
+
+body {
+    width: 80%;
+    min-width: 1200 px;
+    margin: auto;
+    
+}
+
+h1 {
+    margin: -2px 6px;
+    padding: 0px;
+}
+
+header {
+    width: 100%;
+    height: 20vh;
+    font-family: 'Montserat', sans-serif;
+    font-weight: 700;
+    color:white;
+    z-index: 1;
+    margin-top:10px;
+}
+
+header a {
+    text-decoration: none;
+    color: white;  
+}
+header div {
+    float: left;    
+    font-size: 12pt;
+    width: 120px;
+    margin: 0px;
+    z-index: 1;
+}
+
+header div img {
+    margin: -20px 0px -80px 0px;
+    z-index: 2;
+}
+
+header nav {
+    float: right;
+    font-size: 14pt;
+    margin: 5px 100px;
+    color:white;  
+}
+
+header nav a {
+    display:inline-block;
+    margin: 0px 12px;
+    position: relative;
+    transition: 0.5s;
+}
+
+header nav a:after {
+    content: "";
+    display:none;
+    width: 100%;
+    height: 3px;
+    position:absolute;
+    background-color: lightskyblue;
+}
+
+header nav a:hover {
+    color:lightskyblue;
+}
+
+header nav a:hover:after {
+    display: block;
+}
+
+.content {
+    margin-top:0px;
+    padding: 5px;
+    background-color: rgba(132, 180, 225, 0.6);
+    font-family: 'Play', sans-serif;
+    font-size:16pt;
+    text-align:justify;
+}
+
+.list {
+    max-width: 45%;
+    float:left;
+    padding-left:30px;
+}
+
+.list li{
+    font-weight: bold;
+}
+
+.list ul li{
+    font-weight: normal;
+    font-style: italic;
+}
+
+#photo {
+    max-width: 49%;
+    margin:18px;
+}
+
+table {
+    width: 60%;
+    margin:auto;
+    border-collapse:collapse;
+}
+table tr td{
+    border: 2px solid whitesmoke;
+    
+}
+
+div[align = "center"] {
+    border: 2px solid whitesmoke;
+    margin: 40px;
+    padding: 10px;
+
+}
+
+form *{
+    background-color: lightblue;
+}
